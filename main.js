@@ -7,6 +7,7 @@ let inp=document.getElementById("userinp")
 let cominp=document.getElementById("cominp")
 let op=document.querySelector("output")
 var output=""
+var btn=document.querySelector("button")
 for(let i in choice)
 {
     
@@ -34,11 +35,15 @@ for(let i in choice)
         else
         probabilityofwin(i,randomnum)
         op.innerHTML=output
-        window.location.reload()
+        
 
     }
     
     
+}
+btn.onclick=function()
+{
+    window.location.reload()
 }
 
 function findwhatval(val)
