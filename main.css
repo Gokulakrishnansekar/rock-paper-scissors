@@ -53,7 +53,7 @@ button,.disp,hr
     margin: 2% 20%;
     
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
     span
     {
        display: block; 
