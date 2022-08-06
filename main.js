@@ -3,9 +3,9 @@
 
 var choice=document.getElementsByClassName("image")
 var com=0
-let inp=document.getElementById("userinp")
-let cominp=document.getElementById("cominp")
-let op=document.querySelector("output")
+let inp=document.getElementById("userinpspan")
+let cominp=document.getElementById("compinpspan")
+let op=document.getElementById("opspan")
 var output=""
 var btn=document.querySelector("button")
 for(let i in choice)
@@ -14,17 +14,17 @@ for(let i in choice)
   choice[i].onclick=function ()
     {
         //console.log(choice[i])
-        let userinp=""
-        let comp=""
+        
        
-        userinp=findwhatval(i)
-        inp.innerHTML="You Click  "+userinp;
+        //userinp=
+        inp.innerHTML=findwhatval(i)
         
         var randomnum=Math.floor(Math.random()*3)
         console.log(i)
         console.log(randomnum)
-        comp=findwhatval(randomnum)
-        cominp.innerHTML="Computer Click  "+comp;
+        
+        cominp.innerHTML=findwhatval(randomnum)
+        
         if(i==randomnum)
         {
             console.log("draw")
@@ -35,8 +35,8 @@ for(let i in choice)
         else
         probabilityofwin(i,randomnum)
         op.innerHTML=output
-        
-
+    
+    
     }
     
     
