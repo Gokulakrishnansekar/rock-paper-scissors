@@ -17,6 +17,7 @@ h1,button{
     border-radius: 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    padding: 1rem;
     
    
 }
@@ -47,7 +48,9 @@ output
 width: 100vw;
 /*background-color: rgba(92, 221, 204, 0.637);*/
 }
-button,.disp
+button,.disp,hr
 {
     margin-left: 20%;
+    margin-right: 20%;
+    
 }
