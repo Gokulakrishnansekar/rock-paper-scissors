@@ -26,8 +26,9 @@ h1,button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:100vw;
+    /* width:100vw; */
     margin-bottom: 2vh;
+   
     /*border: 2px solid black;*/
     
 }
@@ -35,8 +36,8 @@ h1,button{
     width:20%;
     height:200px;
     border: 2px solid black;
-    border-radius: 0.2em;
-    margin-right: 10px;
+    border-radius: 0.3em;
+    margin-right: 20px;
     background-color: lightslategray;
     text-align: center;
     color: aliceblue;
@@ -48,10 +49,47 @@ output
 width: 100vw;
 /*background-color: rgba(92, 221, 204, 0.637);*/
 }
-button,.disp,hr
+button,.disp,hr,table
 {
     margin: 2% 20%;
     
+}
+button
+{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+img:hover
+{
+    /* display: none; */
+    transform: scale(1.1);
+     /* border-radius: 3px; */
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    background-color: inherit;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .hlight
+{
+    color:blue ;
+    font-size: larger;
 }
 @media screen and (max-width:425px) {
     span
@@ -69,7 +107,30 @@ button,.disp,hr
     {
         width: 40%;
         height: 100px;
+        margin-bottom: 10px;
+        
     }
+    #fobj
+    {
+        display: none;
+        /* border-left: none; */
+    }
+ 
 
     
 }
+#fobj
+{
+    float: right;margin: 0;border-left: 2px solid black;border-radius: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    border-radius: 5px;
+  }
+  p{
+    background-color: DarkSalmon;
+  }

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>welcome to game world</h1>
+    <h1 id="fobj" ><a href="http://#">signup</a>  </h1>
+    <h1>ROCK PAPER SCISSOR</h1>
     <div class="main">
     <div >
         <div class="images">
@@ -20,13 +21,39 @@
        
     </div>
     <div style="display: block;">
-        <label id="userinp" class="disp">press your choice:<span id="userinpspan"></span> </label><br/>
-        <label  id="cominp" class="disp">computer choice is:<span id="compinpspan"></span> </label><hr>
+        <label id="userinp" class="disp">press your choice:<span id="userinpspan" class="hlight"></span> </label><br/>
+        <label  id="cominp" class="disp">computer choice is:<span id="compinpspan" class="hlight"></span> </label><hr>
     
-        <output class="disp">Match Status :<span id="opspan"></span></output><hr>
+        <output class="disp">Match Status :<span id="opspan" class="hlight"></span></output><hr>
     </div>
-    <button style="width:50vw ">refresh</button>
+    <button >refresh</button>
     </div>
+    <h2 style="text-align:center; text-decoration: underline;">Matches Summery</h2>
+    <div id="table">
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Matches</th>
+              <th>Wins</th>
+              
+            </tr>
+            <tr>
+              <td>Computer</td>
+              <td>10</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>User</td>
+              <td>10</td>
+              <td>6</td>
+            </tr>
+        </table>
+    </div>
+    
+<footer>
+    <p>Made By Gokul Krishna<br>
+    <a href="mailto:gokul@gmail.com">Contact Me</a></p>
+  </footer>
    
     <script src="main.js"></script>
 </body>
