@@ -6,7 +6,7 @@ You choose either Rock, Paper, or Scissors by clicking a button.
 
 The computer randomly selects its choice.
 
-The winner is decided based on the traditional rules:
+#The winner is decided based on the traditional rules:
 
 Rock beats Scissors
 
